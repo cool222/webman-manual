@@ -22,6 +22,7 @@ return [
         'password' => null,
         'port'     => 6379,
         'database' => 0,
+        'prefix'   =>'',
     ]
 ];
 ```
@@ -99,6 +100,7 @@ return [
         'password' => null,
         'port'     => 6379,
         'database' => 0,
+        'prefix'   =>'',
     ],
 
     'cache' => [
@@ -106,6 +108,7 @@ return [
         'password' => null,
         'port'     => 6379,
         'database' => 1,
+        'prefix'   =>'',
     ],
 
 ]
@@ -127,6 +130,7 @@ return [
                 'password' => null,
                 'port'     => 6379,
                 'database' => 0,
+                'prefix'   =>'',
             ],
         ],
     ],
